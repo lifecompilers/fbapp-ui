@@ -99,9 +99,15 @@ export default {
       routes: [
         {
           path: '/',
-          name: 'welcome',
+          name: 'dashboard',
           icon: 'smile',
-          component: './Welcome',
+          component: './Dashboard',
+        },
+        {
+          path: 'student',
+          name: 'student',
+          icon: 'plus-square',
+          component: './student/Student'
         },
         {
           component: './404',
